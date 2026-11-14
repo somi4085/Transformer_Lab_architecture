@@ -1,0 +1,51 @@
+{
+    "report_metadata": {
+        "project": "Transformer Architecture Laboratory",
+        "report_generated_at": "2026-11-14T20:21:43.970875+00:00",
+        "source_file": "generation_metrics.json"
+    },
+    "model_configuration": {
+        "embedding_dim": 64,
+        "max_sequence_length": 64,
+        "encoder_layers": 2,
+        "decoder_layers": 2,
+        "attention_heads": 4,
+        "hidden_dim": 256,
+        "dropout": 0.1,
+        "device": "CPU"
+    },
+    "generation_quality": {
+        "bleu_score": 0.0,
+        "bleu_score_normalized": 0.0,
+        "rouge1_f1": 0.1415,
+        "rouge2_f1": 0.0295,
+        "rougeL_f1": 0.1312
+    },
+    "inference_performance": {
+        "total_generation_time_seconds": 1.793769,
+        "average_latency_seconds": 0.089688,
+        "throughput_tokens_per_second": 55.7485,
+        "total_generated_tokens": 100
+    },
+    "generation_behaviour": {
+        "total_prompts": 20,
+        "average_generated_length": 5.0,
+        "empty_outputs": 0,
+        "empty_output_rate": 0.0,
+        "repetition_rate": 0.0,python -m evalaution.inference_profiler
+        "max_new_tokens": 20
+    },
+    "overall_assessment": {
+        "evaluation_status": "completed",
+        "assessment": "Preliminary evaluation. Model quality should be interpreted using generation metrics and manual inspection.",
+        "limitations": [
+            "Evaluation dataset is small; results are preliminary."
+        ],
+        "recommendations": [
+            "Evaluate on a larger validation dataset.",
+            "Inspect generated outputs manually.",
+            "Compare model quality across training checkpoints.",
+            "Benchmark inference under consistent conditions."
+        ]
+    }
+}

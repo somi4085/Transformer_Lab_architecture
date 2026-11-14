@@ -1,0 +1,17 @@
+{
+    "total_prompts": 20,
+    "total_generated_tokens": 100,
+    "average_generated_length": 5.0,
+    "empty_outputs": 0,
+    "empty_output_rate": 0.0,
+    "repetition_rate": 0.0,
+    "total_generation_time_seconds": 1.793769,
+    "average_latency_seconds": 0.089688,
+    "throughput_tokens_per_second": 55.7485,
+    "max_new_tokens": 20,
+    "bleu_score": 0.0,
+    "bleu_score_normalized": 0.0,
+    "rouge1_f1": 0.1415,
+    "rouge2_f1": 0.0295,
+    "rougeL_f1": 0.1312
+}

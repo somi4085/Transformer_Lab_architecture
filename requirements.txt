@@ -1,0 +1,22 @@
+# Core Deep Learning
+torch==2.14.1+cpu
+numpy
+
+# Data Processing
+datasets
+tokenizers
+
+# Visualization
+matplotlib
+tensorboard
+
+# Experiment Tracking
+mlflow
+
+# Testing
+pytest
+
+# Production API
+fastapi
+uvicorn
+pydantic

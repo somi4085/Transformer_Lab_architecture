@@ -1,0 +1,31 @@
+{
+    "configuration": {
+        "device": "cpu",
+        "batch_size": 5,
+        "max_new_tokens": 50,
+        "warmup_runs": 3,
+        "benchmark_runs": 10
+    },
+    "encoder_time_seconds": 0.07300679999752901,
+    "non_cached": {
+        "average_ttft_seconds": 0.0021861700020963325,
+        "average_latency_seconds": 0.16584092999401037,
+        "median_latency_seconds": 0.16106899997976143,
+        "average_tokens_per_second": 1524.2440623932496,
+        "p95_latency_seconds": 0.19555839998065494
+    },
+    "cached": {
+        "average_ttft_seconds": 0.002409250003984198,
+        "average_latency_seconds": 0.12161850000557024,
+        "median_latency_seconds": 0.10716960001445841,
+        "average_tokens_per_second": 2376.8819326663897,
+        "p95_latency_seconds": 0.2955999000114389
+    },
+    "kv_cache_memory": {
+        "bytes": 358400,
+        "kilobytes": 350.0,
+        "megabytes": 0.341796875
+    },
+    "speedup": 1.3636159793651024,
+    "generated_tokens_match": true
+}

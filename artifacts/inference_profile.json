@@ -1,0 +1,166 @@
+{
+    "total_cpu_time_microseconds": 59684.1,
+    "total_cpu_time_seconds": 0.0596841,
+    "top_operations": [
+        {
+            "operator_name": "inference_prompt_1",
+            "calls": 1,
+            "self_cpu_time_microseconds": 12065.299999999994,
+            "total_cpu_time_microseconds": 23269.0,
+            "self_cpu_memory_bytes": -199166,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::addmm",
+            "calls": 165,
+            "self_cpu_time_microseconds": 5227.099999999962,
+            "total_cpu_time_microseconds": 7462.800000000032,
+            "self_cpu_memory_bytes": 468464,
+            "total_cpu_memory_bytes": 468464
+        },
+        {
+            "operator_name": "inference_prompt_3",
+            "calls": 1,
+            "self_cpu_time_microseconds": 5152.200000000004,
+            "total_cpu_time_microseconds": 11155.5,
+            "self_cpu_memory_bytes": -230224,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "inference_prompt_4",
+            "calls": 1,
+            "self_cpu_time_microseconds": 3832.6999999999825,
+            "total_cpu_time_microseconds": 8607.300000000003,
+            "self_cpu_memory_bytes": -261934,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "inference_prompt_2",
+            "calls": 1,
+            "self_cpu_time_microseconds": 3711.5000000000437,
+            "total_cpu_time_microseconds": 8235.7,
+            "self_cpu_memory_bytes": -168760,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "inference_prompt_5",
+            "calls": 1,
+            "self_cpu_time_microseconds": 3605.7999999999956,
+            "total_cpu_time_microseconds": 8416.599999999999,
+            "self_cpu_memory_bytes": -230224,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::linear",
+            "calls": 165,
+            "self_cpu_time_microseconds": 3550.7999999998865,
+            "total_cpu_time_microseconds": 13509.799999999977,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 468464
+        },
+        {
+            "operator_name": "aten::expand",
+            "calls": 305,
+            "self_cpu_time_microseconds": 2052.900000000067,
+            "total_cpu_time_microseconds": 2436.300000000061,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::transpose",
+            "calls": 315,
+            "self_cpu_time_microseconds": 1460.0000000000982,
+            "total_cpu_time_microseconds": 1897.7999999999847,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::reshape",
+            "calls": 130,
+            "self_cpu_time_microseconds": 1350.5000000000146,
+            "total_cpu_time_microseconds": 1533.000000000011,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::native_layer_norm",
+            "calls": 50,
+            "self_cpu_time_microseconds": 1340.9999999999927,
+            "total_cpu_time_microseconds": 1814.499999999989,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 100320
+        },
+        {
+            "operator_name": "aten::copy_",
+            "calls": 245,
+            "self_cpu_time_microseconds": 1310.7999999999865,
+            "total_cpu_time_microseconds": 1310.7999999999865,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::matmul",
+            "calls": 60,
+            "self_cpu_time_microseconds": 1296.4999999999018,
+            "total_cpu_time_microseconds": 5026.899999999987,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 86592
+        },
+        {
+            "operator_name": "aten::bmm",
+            "calls": 60,
+            "self_cpu_time_microseconds": 1198.399999999987,
+            "total_cpu_time_microseconds": 1221.1000000000204,
+            "self_cpu_memory_bytes": 86592,
+            "total_cpu_memory_bytes": 86592
+        },
+        {
+            "operator_name": "aten::embedding",
+            "calls": 10,
+            "self_cpu_time_microseconds": 1146.9000000000033,
+            "total_cpu_time_microseconds": 2138.0999999999876,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 19456
+        },
+        {
+            "operator_name": "aten::view",
+            "calls": 600,
+            "self_cpu_time_microseconds": 1072.400000000007,
+            "total_cpu_time_microseconds": 1072.400000000007,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::empty",
+            "calls": 215,
+            "self_cpu_time_microseconds": 984.0999999999731,
+            "total_cpu_time_microseconds": 984.0999999999731,
+            "self_cpu_memory_bytes": 168988,
+            "total_cpu_memory_bytes": 168988
+        },
+        {
+            "operator_name": "aten::t",
+            "calls": 165,
+            "self_cpu_time_microseconds": 919.7000000000589,
+            "total_cpu_time_microseconds": 1957.0000000000582,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::as_strided",
+            "calls": 670,
+            "self_cpu_time_microseconds": 883.8999999998996,
+            "total_cpu_time_microseconds": 883.8999999998996,
+            "self_cpu_memory_bytes": 0,
+            "total_cpu_memory_bytes": 0
+        },
+        {
+            "operator_name": "aten::layer_norm",
+            "calls": 50,
+            "self_cpu_time_microseconds": 880.9000000000415,
+            "total_cpu_time_microseconds": 2695.4000000000306,
+            "self_cpu_memory_bytes": -3040,
+            "total_cpu_memory_bytes": 97280
+        }
+    ]
+}

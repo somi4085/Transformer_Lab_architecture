@@ -1,0 +1,23 @@
+{
+    "benchmark_configuration": {
+        "device": "cpu",
+        "warmup_runs": 3,
+        "benchmark_runs": 5,
+        "prompts_per_run": 20,
+        "total_requests": 100,
+        "max_new_tokens": 20
+    },
+    "latency": {
+        "average_latency_seconds": 0.02578,
+        "average_request_latency_seconds": 0.026132,
+        "p50_latency_seconds": 0.024363,
+        "p90_latency_seconds": 0.034143,
+        "p95_latency_seconds": 0.035261
+    },
+    "generation": {
+        "total_generated_tokens": 500,
+        "average_tokens_per_request": 5,
+        "tokens_per_second": 191.3364
+    },
+    "total_generation_time_seconds": 2.613198
+}
